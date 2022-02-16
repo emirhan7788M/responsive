@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    list-style: none;
+    list-style-type: none;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    font-family: 'Livvic' sans-serif;
+    min-width: 320px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #004047;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1170;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.back {
+
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    background: #012F34;
+}
+
+.long {
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+.coshe {
+    padding-bottom: 45px;
+    margin: 0 auto;
+    max-width:  254px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.size {
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+.plus {
+    font-size: 20px ;
+}
+
